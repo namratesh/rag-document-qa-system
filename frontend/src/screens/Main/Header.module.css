@@ -1,0 +1,16 @@
+.header {
+  background: var(--ink-navy);
+  color: var(--paper);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--ink-navy-soft);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
